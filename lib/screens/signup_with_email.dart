@@ -10,7 +10,7 @@ import 'login_with_email.dart';
 import 'splash.dart';
 
 class SignInWithEmail extends StatefulWidget {
-  const SignInWithEmail({Key? key}) : super(key: key);
+  const SignInWithEmail({super.key});
 
   @override
   _SigninWithEmailState createState() => _SigninWithEmailState();

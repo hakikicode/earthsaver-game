@@ -20,7 +20,7 @@ import 'pass_n_play.dart';
 import 'splash.dart';
 
 class HomeScreenActivity extends StatefulWidget {
-  const HomeScreenActivity({Key? key}) : super(key: key);
+  const HomeScreenActivity({super.key});
 
   @override
   HomeScreenActivityState createState() => HomeScreenActivityState();
@@ -1099,7 +1099,7 @@ class HomeScreenActivityState extends State<HomeScreenActivity>
 }
 
 class Coin extends StatefulWidget {
-  Coin({Key? key}) : super(key: key);
+  Coin({super.key});
 
   @override
   _CoinState createState() => _CoinState();
@@ -1193,11 +1193,10 @@ class ChipGrid extends StatefulWidget {
   final bool avtar;
 
   const ChipGrid(
-      {Key? key,
+      {super.key,
       required this.list,
       required this.onChange,
-      required this.avtar})
-      : super(key: key);
+      required this.avtar});
 
   @override
   _ChipGridState createState() => _ChipGridState();

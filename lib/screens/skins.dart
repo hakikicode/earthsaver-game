@@ -14,7 +14,7 @@ import '../widgets/alertDialoge.dart';
 import 'splash.dart';
 
 class Skins extends StatefulWidget {
-  const Skins({Key? key}) : super(key: key);
+  const Skins({super.key});
 
   @override
   _SkinsState createState() => _SkinsState();
